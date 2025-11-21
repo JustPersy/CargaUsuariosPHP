@@ -1,9 +1,9 @@
 <?php
 // $servername = "localhost";
-$servername = "127.0.0.1";
-$username   = "dev";
-$password   = "1234";
-$dbname     = "prueba_gema";
+$servername = getenv("DB_SERVER") ?: "127.0.0.1";
+$username   = getenv("DB_USER") ?: "dev";
+$password   = getenv("DB_PASS") ?: "1234";
+$dbname     = getenv("DB_NAME") ?: "prueba_gema";
 
 function connectDB() {
     global $servername, $username, $password, $dbname;

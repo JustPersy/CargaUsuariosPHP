@@ -110,4 +110,4 @@ otro@ejemplo.com,Ana,López,2
 
 ---
 
-*Desarrollado por Cristian Castillo para JerreJerre*
+*Desarrollado por Cristian Castillo*
